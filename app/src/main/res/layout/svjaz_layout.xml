@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+
+        android:id="@+id/imageView3"
+        android:layout_weight="0.03"
+        android:background="@mipmap/logo3" />
+
+    <TextView
+        android:text="Форма обратной связи, осавьте отзыв, мы обязательно на него ответим."
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/textView2"
+        android:layout_weight="0.03"
+        android:textSize="18sp"
+        android:textStyle="normal|bold|italic"
+        android:gravity="center" />
+
+    <TextView
+        android:text="ФИО"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:id="@+id/textView3"
+        android:layout_weight="0.03" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="53dp"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/inputName"
+        android:layout_weight="0.03" />
+
+    <TextView
+        android:text="e-mail"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:id="@+id/textView4"
+        android:layout_weight="0.03" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="53dp"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:id="@+id/editText2"
+        android:layout_weight="0.03" />
+
+    <TextView
+        android:text="Отзыв"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:id="@+id/textView5"
+        android:layout_weight="0.03" />
+
+    <AutoCompleteTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/autoCompleteTextView"
+        android:layout_weight="0.60"
+        android:gravity="top|left" />
+
+    <Button
+        android:text="Отправить"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button2"
+        android:layout_weight="0.03" />
+</LinearLayout>

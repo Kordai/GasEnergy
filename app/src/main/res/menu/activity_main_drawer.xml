@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/Nalichi_Gas"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Наличие Газа"
+            android:visible="false"/>
+        <item
+            android:id="@+id/News"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Новости"
+            android:visible="false" />
+        <item
+            android:id="@+id/karti_taloni"
+            android:icon="@mipmap/karta1"
+            android:title="Топливные карты" />
+        <item
+            android:id="@+id/taloni"
+            android:icon="@mipmap/taloni"
+            android:title="Талоны на топливо" />
+        <item
+            android:id="@+id/svjaz"
+            android:icon="@mipmap/otziv"
+            android:title="Предложения и отзывы" />
+
+    </group>
+
+    <item android:title="Отмеченые АГЗС принимают:"
+        android:visible="true">
+        <menu>
+            <item
+                android:id="@+id/taloni_karti_nal"
+                android:icon="@mipmap/mapmarker5"
+
+                android:title="Талоны, Карты и Наличные"
+                android:checkable="true" />
+            <item
+                android:id="@+id/nal"
+
+                android:title="Только Наличные"
+                android:checkable="true"
+                android:icon="@mipmap/mapmarker2" />
+        </menu>
+    </item>
+
+</menu>

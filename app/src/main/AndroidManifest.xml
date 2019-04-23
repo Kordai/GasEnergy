@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="kz.gasenergy.avtogaztrade">
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/logo2"
+        android:label="GAS ENERGY"
+
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="kz.gasenergy.avtogaztrade.parser.OnActivity"
+
+            android:theme="@style/one">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="kz.gasenergy.avtogaztrade.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyBEfIlEDaMzzYxtNnjpDvjG-3clscMK3N4" />
+
+
+        <activity android:name="kz.gasenergy.avtogaztrade.KartyActivity"/>
+        <activity android:name="kz.gasenergy.avtogaztrade.SvjazActivity"/>
+        <activity android:name="kz.gasenergy.avtogaztrade.TalonyActivity"/>
+
+
+
+    </application>
+
+</manifest>

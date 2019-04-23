@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">GAS ENERGY</string>
+    <string name="hello">Система безналичных расчетов: Талоны и Карты</string>
+    <string name="hello1">Новости</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+</resources>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "262672275780",
+    "firebase_url": "https://gasenergy-9bf99.firebaseio.com",
+    "project_id": "gasenergy-9bf99",
+    "storage_bucket": "gasenergy-9bf99.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:262672275780:android:350e5be5cdeb3231",
+        "android_client_info": {
+          "package_name": "kz.gasenergy.avtogaztrade"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "262672275780-dh2q58dtvhv0tvk59ael5399kt40um41.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "kz.gasenergy.avtogaztrade",
+            "certificate_hash": "c20e57dec95dbcf4fc8ea5af1e01b264e57fab76"
+          }
+        },
+        {
+          "client_id": "262672275780-rke6lj4licobqmdggo0j4ufqkd5grm7e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDLqtrsyMNo3ZCamyqAYoDdvh_aYMNHpTM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "262672275780-rke6lj4licobqmdggo0j4ufqkd5grm7e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
